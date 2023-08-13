@@ -43,7 +43,27 @@ publisher:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
+pages:
+  adopt-international-tx.md:
+    title: Adopting international terminologies
+  authoring.md:
+    title: Authoring
+  define-local-tx.md:
+    title: Defining local terminologies
+  index.md:
+    title: Home
+  laboratory.md:
+    title: Laboratory
+  managing-tx.md:
+    title: Managing terminologies
+  sharing-tx.md:
+    title: Sharing terminologies
+  terminologies.md:
+    title: Terminologies
+  terminology-formats.md:
+    title: Terminology formats
+  tx-capabilities.md:
+    title: Terminology capabilities
 #   index.md:
 #     title: Example Home
 #   implementation.xml:

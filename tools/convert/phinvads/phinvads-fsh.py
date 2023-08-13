@@ -52,7 +52,7 @@ def convert_to_fsh_and_fhir(input_file):
         if line[0] != '':
             if line[5] not in alias_url_mapping:
                 raise ValueError(f'Error: Code System {line[5]} not found in alias mapping.')
-            fsh_output.append("* {}#{}\n".format(line[5], line[0]))
+            fsh_output.append("* {}#{} {}\n".format(line[5], line[0], line[2]))
 
             # Add to the group
             concepts_by_system[line[5]].append({
@@ -78,5 +78,5 @@ def convert_to_fsh_and_fhir(input_file):
     print("FSH and FHIR conversion complete!")
 
 # Get input filename from command line arguments, default to provided filename
-input_file = sys.argv[1] if len(sys.argv) > 1 else 'PHVS_MicrobiologyLabTestResultName_CDC_V5.txt'
+input_file = sys.argv[1] if len(sys.argv) > 1 else 'C:/work/ImplementationGuides/TAP-terminology/tools\convert/phinvads/PHVS_MicrobiologyLabTestResultName_CDC_V5.txt'
 convert_to_fsh_and_fhir(input_file)
