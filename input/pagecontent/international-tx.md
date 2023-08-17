@@ -10,6 +10,7 @@ The following table shows the list of terminologies
 | ICD-O  | International Classification of Diseases focused on oncology; a standard tool for classifying tumor diseases. | Open   | Used primarily by cancer registries  | [WHO](https://www.who.int/classifications/icd/adaptations/oncology/en/)         |
 | ATC/DDD | System to classify drugs based on the organ or system they target and their therapeutic properties. Includes defined daily doses (DDDs). | Open   | Guidelines provided for researchers and health professionals | [WHO Collaborating Centre for Drug Statistics Methodology](https://www.whocc.no/) |
 | UCUM | A universal code system intended to include all units of measures used internationally, especially in scientific, medical, and technical contexts. | Open | Based on international standards of units   | [UCUM](https://unitsofmeasure.org/)   |
+| EDQM | A code system with dose forms, routes of administration, and others used in the definition and use of medicines, issued by the European Directorate for Quality of Medicines. | Public access | Access requires an account  | [EDQM](https://edqm.eu/)  |
 
 
 ## Overall recommendations: 

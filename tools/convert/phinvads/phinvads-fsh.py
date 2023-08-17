@@ -52,7 +52,7 @@ def convert_to_fsh_and_fhir(input_file):
         if line[0] != '':
             if line[5] not in alias_url_mapping:
                 raise ValueError(f'Error: Code System {line[5]} not found in alias mapping.')
-            fsh_output.append("* {}#{} {}\n".format(line[5], line[0], line[2]))
+            fsh_output.append("* {}#{} \"{}\"\n".format(line[5], line[0], line[2]))
 
             # Add to the group
             concepts_by_system[line[5]].append({

@@ -9,5 +9,4 @@ Several formats exist, but in practice there is no standardization and every ter
 
 The increasing adoption of FHIR by the implementers and providers of terminology solution and content has allowed the advantages above. 
 By using FHIR, organizations can accommodate a diverse range of terminologies within a unified structure. Furthermore, the FHIR ecosystem helps the tasks of managing, authoring, and distributing terminologies. This means organizations can ensure timely updates, facilitate accurate terminology mapping, and deploy efficient distribution mechanisms. 
-
-In short, the standardization of the exchange of terminologies, using FHIR resources and ecosystem, is important for the management of the terminologies.
+This allows various systems to understand and use the terminologies without requiring extensive custom integration work.
