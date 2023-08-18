@@ -189,6 +189,20 @@ groups:
     resources:
       - ValueSet/RadLex    
 
+  Medication:
+    name: Medicinal Products and Medication
+    description: |
+      #### Notes:
+
+      ### References 
+      * [EDQM dose form](http://build.fhir.org/ig/hl7-eu/unicom-ig/ValueSet-basic-dose-form.html) (Temporary location)
+      * [EDQM route of administration](http://build.fhir.org/ig/hl7-eu/unicom-ig/ValueSet-route-of-administration.html) (Temporary location)
+      * [EDQM pharmaceutical dose form](http://build.fhir.org/ig/hl7-eu/unicom-ig/ValueSet-pharmaceutical-dose-form.html (Temporary location)
+      * [EDQM combined pharmaceutical dose form](http://build.fhir.org/ig/hl7-eu/unicom-ig/ValueSet-combined-pharmaceutical-dose-form.html) (Temporary location)
+      * [EDQM combination pack](http://build.fhir.org/ig/hl7-eu/unicom-ig/ValueSet-combination-pack.html) (Temporary location)
+
+    resources:
+
 
 
 #
