@@ -42,7 +42,8 @@ publisher:
 # file name extension.  Any subproperties that are valid filenames
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
-#
+
+
 pages:
   index.md:
     title: Home
@@ -58,15 +59,13 @@ pages:
     title: FHIR terminology resources
   tx-capabilities.md:
     title: Terminology capabilities
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
-#
-#
+
+
+
+
+
+
+
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
 # resource), the code is the YAML key. If a parameter allows repeating
@@ -177,7 +176,7 @@ groups:
       Normal ranges are also related to units. The standardization of test results and respective units is an important step.
 
       ### References
-      https://build.fhir.org/ig/HL7/US-Core/ValueSet-us-core-laboratory-test-codes.html
+      [US core laboratory test codes value set](https://build.fhir.org/ig/HL7/US-Core/ValueSet-us-core-laboratory-test-codes.html)
     resources:
       - ValueSet/LabTestsVS
       - ValueSet/PHVS-MicrobiologyLabTestResultName-CDC  
@@ -185,34 +184,13 @@ groups:
   Rad:
     name: Radiology and Imaging
     description: |
-      #### Notes:
-
       ### References
-
-      https://tx.fhir.org/r4/ValueSet/loinc-rsna-radiology-playbook
+      * [LOINC RSNA Radiology playbook](https://tx.fhir.org/r4/ValueSet/loinc-rsna-radiology-playbook)
     resources:
       - ValueSet/RadLex    
 
-  Medication:
-    name: Medicinal Products and Medication
-    description: |
-      #### Notes:
-
-      ### References
 
 
-    resources:
-
-#    resources:
-#     - StructureDefinition/animal-patient
-#     - StructureDefinition/arm-procedure
-#   GroupB:
-#     name: Group B
-#     description: The Beta Group
-#     resources:
-#     - StructureDefinition/bark-control
-#     - StructureDefinition/bee-sting
-#
 #
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
