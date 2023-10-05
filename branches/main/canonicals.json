@@ -1,0 +1,58 @@
+[
+  {
+    "id" : "AccidentsInjuriesCategories",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/AccidentsInjuriesCategories",
+    "version" : "0.1.0",
+    "name" : "AccidentsInjuriesCategories"
+  },
+  {
+    "id" : "CostBasedServiceGroups",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/CostBasedServiceGroups",
+    "version" : "0.1.0",
+    "name" : "CostBasedServiceGroups"
+  },
+  {
+    "id" : "DepartmentTypeCodes",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/DepartmentTypeCodes",
+    "version" : "0.1.0",
+    "name" : "DepartmentTypeCodes"
+  },
+  {
+    "id" : "DrugCategoriesProcurement",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/DrugCategoriesProcurement",
+    "version" : "0.1.0",
+    "name" : "DrugCategoriesProcurement"
+  },
+  {
+    "id" : "path.fhir.tap.terminology",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/path.fhir.tap.terminology",
+    "version" : "0.1.0",
+    "name" : "TAPterminology"
+  },
+  {
+    "id" : "LabTestsVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/LabTestsVS",
+    "version" : "0.1.0",
+    "name" : "LabTestsVS"
+  },
+  {
+    "id" : "PHVS-MicrobiologyLabTestResultName-CDC",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/PHVS-MicrobiologyLabTestResultName-CDC",
+    "version" : "0.1.0",
+    "name" : "PHVS_MicrobiologyLabTestResultName_CDC"
+  },
+  {
+    "id" : "RadLex",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/RadLex",
+    "version" : "0.1.0",
+    "name" : "RadLex"
+  }
+]

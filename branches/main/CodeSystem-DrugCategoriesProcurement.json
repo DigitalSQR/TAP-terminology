@@ -1,0 +1,24 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "DrugCategoriesProcurement",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://example.org/CodeSystem/DrugCategoriesProcurement</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/DrugCategoriesProcurement",
+  "version" : "0.1.0",
+  "name" : "DrugCategoriesProcurement",
+  "title" : "Codes of procurements and drug categories",
+  "status" : "draft",
+  "date" : "2023-10-05T08:24:31+00:00",
+  "publisher" : "PATH - TAP",
+  "contact" : [{
+    "name" : "PATH - TAP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://path.org"
+    }]
+  }],
+  "description" : "Codes of procurements and drug categories.",
+  "content" : "complete"
+}

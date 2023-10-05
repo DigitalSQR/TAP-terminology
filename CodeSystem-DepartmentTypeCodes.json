@@ -1,0 +1,85 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "DepartmentTypeCodes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://example.org/CodeSystem/DepartmentTypeCodes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"DepartmentTypeCodes-1\"> </a></td><td>Testing</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"DepartmentTypeCodes-2\"> </a></td><td>Medical imaging</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"DepartmentTypeCodes-3\"> </a></td><td>Function testing</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"DepartmentTypeCodes-4\"> </a></td><td>Drugs in the list of drugs covered by health insurance</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"DepartmentTypeCodes-5\"> </a></td><td>Drugs which are not in the list of drugs covered by health insurance</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"DepartmentTypeCodes-6\"> </a></td><td>Drugs for which payment is made according to coinsurance percentage</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"DepartmentTypeCodes-7\"> </a></td><td>Blood and blood products</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"DepartmentTypeCodes-8\"> </a></td><td>Surgery and procedures</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"DepartmentTypeCodes-9\"> </a></td><td>Medical technical services for which payment is made according to coinsurance percentage</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"DepartmentTypeCodes-10\"> </a></td><td>Medical supplies in the list of medical supplies covered by health insurance</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"DepartmentTypeCodes-11\"> </a></td><td>Medical supplies for which payment is made according to coinsurance percentage</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"DepartmentTypeCodes-12\"> </a></td><td>Transport</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"DepartmentTypeCodes-13\"> </a></td><td>Medical examination</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"DepartmentTypeCodes-14\"> </a></td><td>Days of day hospital bed</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"DepartmentTypeCodes-15\"> </a></td><td>Days of inpatient hospital beds, including post-operative beds</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/DepartmentTypeCodes",
+  "version" : "0.1.0",
+  "name" : "DepartmentTypeCodes",
+  "title" : "DepartmentTypeCodes",
+  "status" : "draft",
+  "date" : "2023-10-05T08:24:31+00:00",
+  "publisher" : "PATH - TAP",
+  "contact" : [{
+    "name" : "PATH - TAP",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://path.org"
+    }]
+  }],
+  "description" : "Department Type Codes.",
+  "content" : "complete",
+  "count" : 15,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Testing"
+  },
+  {
+    "code" : "2",
+    "display" : "Medical imaging"
+  },
+  {
+    "code" : "3",
+    "display" : "Function testing"
+  },
+  {
+    "code" : "4",
+    "display" : "Drugs in the list of drugs covered by health insurance"
+  },
+  {
+    "code" : "5",
+    "display" : "Drugs which are not in the list of drugs covered by health insurance"
+  },
+  {
+    "code" : "6",
+    "display" : "Drugs for which payment is made according to coinsurance percentage"
+  },
+  {
+    "code" : "7",
+    "display" : "Blood and blood products"
+  },
+  {
+    "code" : "8",
+    "display" : "Surgery and procedures"
+  },
+  {
+    "code" : "9",
+    "display" : "Medical technical services for which payment is made according to coinsurance percentage"
+  },
+  {
+    "code" : "10",
+    "display" : "Medical supplies in the list of medical supplies covered by health insurance"
+  },
+  {
+    "code" : "11",
+    "display" : "Medical supplies for which payment is made according to coinsurance percentage"
+  },
+  {
+    "code" : "12",
+    "display" : "Transport"
+  },
+  {
+    "code" : "13",
+    "display" : "Medical examination"
+  },
+  {
+    "code" : "14",
+    "display" : "Days of day hospital bed"
+  },
+  {
+    "code" : "15",
+    "display" : "Days of inpatient hospital beds, including post-operative beds"
+  }]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="DrugCategoriesProcurement"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://example.org/CodeSystem/DrugCategoriesProcurement</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/DrugCategoriesProcurement"/>
+  <version value="0.1.0"/>
+  <name value="DrugCategoriesProcurement"/>
+  <title value="Codes of procurements and drug categories"/>
+  <status value="draft"/>
+  <date value="2023-10-05T08:24:31+00:00"/>
+  <publisher value="PATH - TAP"/>
+  <contact>
+    <name value="PATH - TAP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://path.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes of procurements and drug categories."/>
+  <content value="complete"/>
+</CodeSystem>

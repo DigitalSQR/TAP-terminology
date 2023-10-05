@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="AccidentsInjuriesCategories"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://example.org/CodeSystem/AccidentsInjuriesCategories</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">K01<a name="AccidentsInjuriesCategories-K01"> </a></td><td>Outpatient Department</td></tr><tr><td style="white-space:nowrap">K02<a name="AccidentsInjuriesCategories-K02"> </a></td><td>Intensive Care Department</td></tr><tr><td style="white-space:nowrap">K03<a name="AccidentsInjuriesCategories-K03"> </a></td><td>General Medicine Department</td></tr><tr><td style="white-space:nowrap">K04<a name="AccidentsInjuriesCategories-K04"> </a></td><td>Cardiovascular Department</td></tr><tr><td style="white-space:nowrap">K05<a name="AccidentsInjuriesCategories-K05"> </a></td><td>Digestive Department</td></tr><tr><td style="white-space:nowrap">K06<a name="AccidentsInjuriesCategories-K06"> </a></td><td>Musculo-sckeletal Department</td></tr><tr><td style="white-space:nowrap">K07<a name="AccidentsInjuriesCategories-K07"> </a></td><td>Department of Internal Urology</td></tr><tr><td style="white-space:nowrap">K08<a name="AccidentsInjuriesCategories-K08"> </a></td><td>Endocrinology Department</td></tr><tr><td style="white-space:nowrap">K09<a name="AccidentsInjuriesCategories-K09"> </a></td><td>Department of Allergy</td></tr><tr><td style="white-space:nowrap">K10<a name="AccidentsInjuriesCategories-K10"> </a></td><td>Department of Clinical Hematology</td></tr><tr><td style="white-space:nowrap">K11<a name="AccidentsInjuriesCategories-K11"> </a></td><td>Infectious Disease Department</td></tr><tr><td style="white-space:nowrap">K12<a name="AccidentsInjuriesCategories-K12"> </a></td><td>Tuberculosis Department</td></tr><tr><td style="white-space:nowrap">K13<a name="AccidentsInjuriesCategories-K13"> </a></td><td>Department of Dermatology</td></tr><tr><td style="white-space:nowrap">K14<a name="AccidentsInjuriesCategories-K14"> </a></td><td>Neurology Department</td></tr><tr><td style="white-space:nowrap">K15<a name="AccidentsInjuriesCategories-K15"> </a></td><td>Department of Mental Health</td></tr><tr><td style="white-space:nowrap">K16<a name="AccidentsInjuriesCategories-K16"> </a></td><td>Department of Traditional Medicine</td></tr><tr><td style="white-space:nowrap">K17<a name="AccidentsInjuriesCategories-K17"> </a></td><td>Department of Geriatrics</td></tr><tr><td style="white-space:nowrap">K18<a name="AccidentsInjuriesCategories-K18"> </a></td><td>Pediatrics Department</td></tr><tr><td style="white-space:nowrap">K19<a name="AccidentsInjuriesCategories-K19"> </a></td><td>General Surgery Department</td></tr><tr><td style="white-space:nowrap">K20<a name="AccidentsInjuriesCategories-K20"> </a></td><td>Neurosurgery Department</td></tr><tr><td style="white-space:nowrap">K21<a name="AccidentsInjuriesCategories-K21"> </a></td><td>Thoracic Surgery Department</td></tr><tr><td style="white-space:nowrap">K22<a name="AccidentsInjuriesCategories-K22"> </a></td><td>Department of Digestive Surgery</td></tr><tr><td style="white-space:nowrap">K23<a name="AccidentsInjuriesCategories-K23"> </a></td><td>Department of Urologic Surgery</td></tr><tr><td style="white-space:nowrap">K24<a name="AccidentsInjuriesCategories-K24"> </a></td><td>Trauma and Orthopedic Department</td></tr><tr><td style="white-space:nowrap">K25<a name="AccidentsInjuriesCategories-K25"> </a></td><td>Department of Burns</td></tr><tr><td style="white-space:nowrap">K26<a name="AccidentsInjuriesCategories-K26"> </a></td><td>Department of Anesthesia and Surgical Intensive Care</td></tr><tr><td style="white-space:nowrap">K27<a name="AccidentsInjuriesCategories-K27"> </a></td><td>Department of Obstetrics</td></tr><tr><td style="white-space:nowrap">K28<a name="AccidentsInjuriesCategories-K28"> </a></td><td>ENT Department</td></tr><tr><td style="white-space:nowrap">K29<a name="AccidentsInjuriesCategories-K29"> </a></td><td>Department of Odontology</td></tr><tr><td style="white-space:nowrap">K30<a name="AccidentsInjuriesCategories-K30"> </a></td><td>Department of Ophthalmology</td></tr><tr><td style="white-space:nowrap">K31<a name="AccidentsInjuriesCategories-K31"> </a></td><td>Department of Physiotherapy and Rehabilitation</td></tr><tr><td style="white-space:nowrap">K32<a name="AccidentsInjuriesCategories-K32"> </a></td><td>Department of Nuclear Medicine</td></tr><tr><td style="white-space:nowrap">K33<a name="AccidentsInjuriesCategories-K33"> </a></td><td>Department of Oncology (radiation therapy)</td></tr><tr><td style="white-space:nowrap">K34<a name="AccidentsInjuriesCategories-K34"> </a></td><td>Blood Transfusion Department</td></tr><tr><td style="white-space:nowrap">K35<a name="AccidentsInjuriesCategories-K35"> </a></td><td>Department of Blood Purification</td></tr><tr><td style="white-space:nowrap">K36<a name="AccidentsInjuriesCategories-K36"> </a></td><td>Hematology Department</td></tr><tr><td style="white-space:nowrap">K37<a name="AccidentsInjuriesCategories-K37"> </a></td><td>Department of Biochemistry</td></tr><tr><td style="white-space:nowrap">K38<a name="AccidentsInjuriesCategories-K38"> </a></td><td>Department of Microbiology</td></tr><tr><td style="white-space:nowrap">K39<a name="AccidentsInjuriesCategories-K39"> </a></td><td>Department of Medical Imaging</td></tr><tr><td style="white-space:nowrap">K40<a name="AccidentsInjuriesCategories-K40"> </a></td><td>Department of Functional Tests</td></tr><tr><td style="white-space:nowrap">K41<a name="AccidentsInjuriesCategories-K41"> </a></td><td>Department of Endoscopy</td></tr><tr><td style="white-space:nowrap">K42<a name="AccidentsInjuriesCategories-K42"> </a></td><td>Department of Pathology</td></tr><tr><td style="white-space:nowrap">K43<a name="AccidentsInjuriesCategories-K43"> </a></td><td>Department of Infection Control</td></tr><tr><td style="white-space:nowrap">K44<a name="AccidentsInjuriesCategories-K44"> </a></td><td>Department of Pharmacy</td></tr><tr><td style="white-space:nowrap">K45<a name="AccidentsInjuriesCategories-K45"> </a></td><td>Department of Nutrition</td></tr><tr><td style="white-space:nowrap">K46<a name="AccidentsInjuriesCategories-K46"> </a></td><td>Molecular Biology Department</td></tr><tr><td style="white-space:nowrap">K47<a name="AccidentsInjuriesCategories-K47"> </a></td><td>Laboratory Department</td></tr><tr><td style="white-space:nowrap">K48<a name="AccidentsInjuriesCategories-K48"> </a></td><td>Department of Intensive Care</td></tr><tr><td style="white-space:nowrap">K49<a name="AccidentsInjuriesCategories-K49"> </a></td><td>Department of Poisoning Control</td></tr><tr><td style="white-space:nowrap">K50<a name="AccidentsInjuriesCategories-K50"> </a></td><td>Respiratory Department</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/AccidentsInjuriesCategories"/>
+  <version value="0.1.0"/>
+  <name value="AccidentsInjuriesCategories"/>
+  <title value="Categories of Accidents and Injuries"/>
+  <status value="draft"/>
+  <date value="2023-10-05T08:24:31+00:00"/>
+  <publisher value="PATH - TAP"/>
+  <contact>
+    <name value="PATH - TAP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://path.org"/>
+    </telecom>
+  </contact>
+  <description value="Categories of Accidents and Injuries."/>
+  <content value="complete"/>
+  <count value="50"/>
+  <concept>
+    <code value="K01"/>
+    <display value="Outpatient Department"/>
+  </concept>
+  <concept>
+    <code value="K02"/>
+    <display value="Intensive Care Department"/>
+  </concept>
+  <concept>
+    <code value="K03"/>
+    <display value="General Medicine Department"/>
+  </concept>
+  <concept>
+    <code value="K04"/>
+    <display value="Cardiovascular Department"/>
+  </concept>
+  <concept>
+    <code value="K05"/>
+    <display value="Digestive Department"/>
+  </concept>
+  <concept>
+    <code value="K06"/>
+    <display value="Musculo-sckeletal Department"/>
+  </concept>
+  <concept>
+    <code value="K07"/>
+    <display value="Department of Internal Urology"/>
+  </concept>
+  <concept>
+    <code value="K08"/>
+    <display value="Endocrinology Department"/>
+  </concept>
+  <concept>
+    <code value="K09"/>
+    <display value="Department of Allergy"/>
+  </concept>
+  <concept>
+    <code value="K10"/>
+    <display value="Department of Clinical Hematology"/>
+  </concept>
+  <concept>
+    <code value="K11"/>
+    <display value="Infectious Disease Department"/>
+  </concept>
+  <concept>
+    <code value="K12"/>
+    <display value="Tuberculosis Department"/>
+  </concept>
+  <concept>
+    <code value="K13"/>
+    <display value="Department of Dermatology"/>
+  </concept>
+  <concept>
+    <code value="K14"/>
+    <display value="Neurology Department"/>
+  </concept>
+  <concept>
+    <code value="K15"/>
+    <display value="Department of Mental Health"/>
+  </concept>
+  <concept>
+    <code value="K16"/>
+    <display value="Department of Traditional Medicine"/>
+  </concept>
+  <concept>
+    <code value="K17"/>
+    <display value="Department of Geriatrics"/>
+  </concept>
+  <concept>
+    <code value="K18"/>
+    <display value="Pediatrics Department"/>
+  </concept>
+  <concept>
+    <code value="K19"/>
+    <display value="General Surgery Department"/>
+  </concept>
+  <concept>
+    <code value="K20"/>
+    <display value="Neurosurgery Department"/>
+  </concept>
+  <concept>
+    <code value="K21"/>
+    <display value="Thoracic Surgery Department"/>
+  </concept>
+  <concept>
+    <code value="K22"/>
+    <display value="Department of Digestive Surgery"/>
+  </concept>
+  <concept>
+    <code value="K23"/>
+    <display value="Department of Urologic Surgery"/>
+  </concept>
+  <concept>
+    <code value="K24"/>
+    <display value="Trauma and Orthopedic Department"/>
+  </concept>
+  <concept>
+    <code value="K25"/>
+    <display value="Department of Burns"/>
+  </concept>
+  <concept>
+    <code value="K26"/>
+    <display value="Department of Anesthesia and Surgical Intensive Care"/>
+  </concept>
+  <concept>
+    <code value="K27"/>
+    <display value="Department of Obstetrics"/>
+  </concept>
+  <concept>
+    <code value="K28"/>
+    <display value="ENT Department"/>
+  </concept>
+  <concept>
+    <code value="K29"/>
+    <display value="Department of Odontology"/>
+  </concept>
+  <concept>
+    <code value="K30"/>
+    <display value="Department of Ophthalmology"/>
+  </concept>
+  <concept>
+    <code value="K31"/>
+    <display value="Department of Physiotherapy and Rehabilitation"/>
+  </concept>
+  <concept>
+    <code value="K32"/>
+    <display value="Department of Nuclear Medicine"/>
+  </concept>
+  <concept>
+    <code value="K33"/>
+    <display value="Department of Oncology (radiation therapy)"/>
+  </concept>
+  <concept>
+    <code value="K34"/>
+    <display value="Blood Transfusion Department"/>
+  </concept>
+  <concept>
+    <code value="K35"/>
+    <display value="Department of Blood Purification"/>
+  </concept>
+  <concept>
+    <code value="K36"/>
+    <display value="Hematology Department"/>
+  </concept>
+  <concept>
+    <code value="K37"/>
+    <display value="Department of Biochemistry"/>
+  </concept>
+  <concept>
+    <code value="K38"/>
+    <display value="Department of Microbiology"/>
+  </concept>
+  <concept>
+    <code value="K39"/>
+    <display value="Department of Medical Imaging"/>
+  </concept>
+  <concept>
+    <code value="K40"/>
+    <display value="Department of Functional Tests"/>
+  </concept>
+  <concept>
+    <code value="K41"/>
+    <display value="Department of Endoscopy"/>
+  </concept>
+  <concept>
+    <code value="K42"/>
+    <display value="Department of Pathology"/>
+  </concept>
+  <concept>
+    <code value="K43"/>
+    <display value="Department of Infection Control"/>
+  </concept>
+  <concept>
+    <code value="K44"/>
+    <display value="Department of Pharmacy"/>
+  </concept>
+  <concept>
+    <code value="K45"/>
+    <display value="Department of Nutrition"/>
+  </concept>
+  <concept>
+    <code value="K46"/>
+    <display value="Molecular Biology Department"/>
+  </concept>
+  <concept>
+    <code value="K47"/>
+    <display value="Laboratory Department"/>
+  </concept>
+  <concept>
+    <code value="K48"/>
+    <display value="Department of Intensive Care"/>
+  </concept>
+  <concept>
+    <code value="K49"/>
+    <display value="Department of Poisoning Control"/>
+  </concept>
+  <concept>
+    <code value="K50"/>
+    <display value="Respiratory Department"/>
+  </concept>
+</CodeSystem>

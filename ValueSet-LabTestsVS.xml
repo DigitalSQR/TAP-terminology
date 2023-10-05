@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="LabTestsVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/58410-2/">58410-2</a></td><td style="color: #cccccc">CBC panel - Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/57021-8/">57021-8</a></td><td style="color: #cccccc">CBC W Auto Differential panel - Blood</td></tr><tr><td><a href="https://loinc.org/6690-2/">6690-2</a></td><td style="color: #cccccc">Leukocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/789-8/">789-8</a></td><td style="color: #cccccc">Erythrocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/718-7/">718-7</a></td><td style="color: #cccccc">Hemoglobin [Mass/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/4544-3/">4544-3</a></td><td style="color: #cccccc">Hematocrit [Volume Fraction] of Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/787-2/">787-2</a></td><td style="color: #cccccc">MCV [Entitic volume] by Automated count</td></tr><tr><td><a href="https://loinc.org/785-6/">785-6</a></td><td style="color: #cccccc">MCH [Entitic mass] by Automated count</td></tr><tr><td><a href="https://loinc.org/786-4/">786-4</a></td><td style="color: #cccccc">MCHC [Mass/volume] by Automated count</td></tr><tr><td><a href="https://loinc.org/788-0/">788-0</a></td><td style="color: #cccccc">Erythrocyte distribution width [Ratio] by Automated count</td></tr><tr><td><a href="https://loinc.org/21000-5/">21000-5</a></td><td style="color: #cccccc">Erythrocyte distribution width [Entitic volume] by Automated count</td></tr><tr><td><a href="https://loinc.org/777-3/">777-3</a></td><td style="color: #cccccc">Platelets [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/713-8/">713-8</a></td><td style="color: #cccccc">Eosinophils/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/706-2/">706-2</a></td><td style="color: #cccccc">Basophils/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/5905-5/">5905-5</a></td><td style="color: #cccccc">Monocytes/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/736-9/">736-9</a></td><td style="color: #cccccc">Lymphocytes/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/4662-3/">4662-3</a></td><td style="color: #cccccc">Lymphocytes+Monocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/32155-4/">32155-4</a></td><td style="color: #cccccc">Basophils+Eosinophils+Monocytes/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/770-8/">770-8</a></td><td style="color: #cccccc">Neutrophils/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/19023-1/">19023-1</a></td><td style="color: #cccccc">Granulocytes/100 leukocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/38518-7/">38518-7</a></td><td style="color: #cccccc">Immature granulocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/711-2/">711-2</a></td><td style="color: #cccccc">Eosinophils [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/704-7/">704-7</a></td><td style="color: #cccccc">Basophils [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/742-7/">742-7</a></td><td style="color: #cccccc">Monocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/731-0/">731-0</a></td><td style="color: #cccccc">Lymphocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/35081-9/">35081-9</a></td><td style="color: #cccccc">Lymphocytes+Monocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/32154-7/">32154-7</a></td><td style="color: #cccccc">Basophils+Eosinophils+Monocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/751-8/">751-8</a></td><td style="color: #cccccc">Neutrophils [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/20482-6/">20482-6</a></td><td style="color: #cccccc">Granulocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/51584-1/">51584-1</a></td><td style="color: #cccccc">Immature granulocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/32207-3/">32207-3</a></td><td style="color: #cccccc">Platelet distribution width [Entitic volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/51631-0/">51631-0</a></td><td style="color: #cccccc">Platelet distribution width [Ratio] in Blood</td></tr><tr><td><a href="https://loinc.org/32623-1/">32623-1</a></td><td style="color: #cccccc">Platelet mean volume [Entitic volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/48386-7/">48386-7</a></td><td style="color: #cccccc">Platelets Large/Platelets in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/51637-7/">51637-7</a></td><td style="color: #cccccc">Plateletcrit [Volume Fraction] in Blood</td></tr><tr><td><a href="https://loinc.org/71693-6/">71693-6</a></td><td style="color: #cccccc">Platelets reticulated/100 platelets in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/30352-9/">30352-9</a></td><td style="color: #cccccc">Hemoglobin [Mass/volume] in Capillary blood</td></tr><tr><td><a href="https://loinc.org/771-6/">771-6</a></td><td style="color: #cccccc">Nucleated erythrocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/58413-6/">58413-6</a></td><td style="color: #cccccc">Nucleated erythrocytes/100 leukocytes [Ratio] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/17849-1/">17849-1</a></td><td style="color: #cccccc">Reticulocytes/100 erythrocytes in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/60474-4/">60474-4</a></td><td style="color: #cccccc">Reticulocytes [#/volume] in Blood by Automated count</td></tr><tr><td><a href="https://loinc.org/33516-6/">33516-6</a></td><td style="color: #cccccc">Immature reticulocytes/Reticulocytes.total in Blood</td></tr><tr><td><a href="https://loinc.org/34419-2/">34419-2</a></td><td style="color: #cccccc">Reticulocytes.mature/Reticulocytes.total in Blood</td></tr><tr><td><a href="https://loinc.org/34420-0/">34420-0</a></td><td style="color: #cccccc">Reticulocytes.mid/Reticulocytes.total in Blood</td></tr><tr><td><a href="https://loinc.org/51642-7/">51642-7</a></td><td style="color: #cccccc">Reticulocytes.high light scatter/Reticulocytes.total in Blood</td></tr><tr><td><a href="https://loinc.org/42810-2/">42810-2</a></td><td style="color: #cccccc">Hemoglobin [Entitic mass] in Reticulocytes</td></tr><tr><td><a href="https://loinc.org/26450-7/">26450-7</a></td><td style="color: #cccccc">Eosinophils/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26449-9/">26449-9</a></td><td style="color: #cccccc">Eosinophils [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/30180-4/">30180-4</a></td><td style="color: #cccccc">Basophils/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26444-0/">26444-0</a></td><td style="color: #cccccc">Basophils [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/26485-3/">26485-3</a></td><td style="color: #cccccc">Monocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26484-6/">26484-6</a></td><td style="color: #cccccc">Monocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/30466-7/">30466-7</a></td><td style="color: #cccccc">Promonocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/33840-0/">33840-0</a></td><td style="color: #cccccc">Monoblasts/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/737-7/">737-7</a></td><td style="color: #cccccc">Lymphocytes/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/732-8/">732-8</a></td><td style="color: #cccccc">Lymphocytes [#/volume] in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/26478-8/">26478-8</a></td><td style="color: #cccccc">Lymphocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26474-7/">26474-7</a></td><td style="color: #cccccc">Lymphocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/33835-0/">33835-0</a></td><td style="color: #cccccc">Lymphocytes Plasmacytoid/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/35039-7/">35039-7</a></td><td style="color: #cccccc">Lymphocytes Plasmacytoid [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/6746-2/">6746-2</a></td><td style="color: #cccccc">Prolymphocytes/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/30464-2/">30464-2</a></td><td style="color: #cccccc">Prolymphocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/34922-5/">34922-5</a></td><td style="color: #cccccc">Lymphoblasts/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/40716-3/">40716-3</a></td><td style="color: #cccccc">Hairy cells [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/29261-5/">29261-5</a></td><td style="color: #cccccc">Abnormal lymphocytes/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/30412-1/">30412-1</a></td><td style="color: #cccccc">Abnormal lymphocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/24104-2/">24104-2</a></td><td style="color: #cccccc">Lymphoma cells/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/30422-0/">30422-0</a></td><td style="color: #cccccc">Lymphoma cells [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/13047-6/">13047-6</a></td><td style="color: #cccccc">Plasma cells/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/30458-4/">30458-4</a></td><td style="color: #cccccc">Plasma cells [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/26511-6/">26511-6</a></td><td style="color: #cccccc">Neutrophils/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26499-4/">26499-4</a></td><td style="color: #cccccc">Neutrophils [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/26505-8/">26505-8</a></td><td style="color: #cccccc">Segmented neutrophils/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26508-2/">26508-2</a></td><td style="color: #cccccc">Band form neutrophils/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26507-4/">26507-4</a></td><td style="color: #cccccc">Band form neutrophils [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/740-1/">740-1</a></td><td style="color: #cccccc">Metamyelocytes/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/30433-7/">30433-7</a></td><td style="color: #cccccc">Metamyelocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/26498-6/">26498-6</a></td><td style="color: #cccccc">Myelocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/30446-9/">30446-9</a></td><td style="color: #cccccc">Myelocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/26524-9/">26524-9</a></td><td style="color: #cccccc">Promyelocytes/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/26523-1/">26523-1</a></td><td style="color: #cccccc">Promyelocytes [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/747-6/">747-6</a></td><td style="color: #cccccc">Myeloblasts/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/709-6/">709-6</a></td><td style="color: #cccccc">Blasts/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/30376-8/">30376-8</a></td><td style="color: #cccccc">Blasts [#/volume] in Blood</td></tr><tr><td><a href="https://loinc.org/55377-6/">55377-6</a></td><td style="color: #cccccc">Mononuclear cells immature/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/33990-3/">33990-3</a></td><td style="color: #cccccc">Normoblasts/100 leukocytes in Blood</td></tr><tr><td><a href="https://loinc.org/772-4/">772-4</a></td><td style="color: #cccccc">Nucleated erythrocytes [#/volume] in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/71369-3/">71369-3</a></td><td style="color: #cccccc">Neutrophils.dysplastic [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/803-7/">803-7</a></td><td style="color: #cccccc">Toxic granules [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7792-5/">7792-5</a></td><td style="color: #cccccc">Dohle body [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/765-8/">765-8</a></td><td style="color: #cccccc">Neutrophils.hypersegmented [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/18319-4/">18319-4</a></td><td style="color: #cccccc">Neutrophils.vacuolated [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/50672-5/">50672-5</a></td><td style="color: #cccccc">Leukocyte toxic vacuoles [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/11281-3/">11281-3</a></td><td style="color: #cccccc">Auer rods [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/733-6/">733-6</a></td><td style="color: #cccccc">Variant lymphocytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/14912-0/">14912-0</a></td><td style="color: #cccccc">Smudge cells/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/7797-4/">7797-4</a></td><td style="color: #cccccc">Rouleaux [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/50670-9/">50670-9</a></td><td style="color: #cccccc">Erythrocyte agglutination [Presence] in Blood</td></tr><tr><td><a href="https://loinc.org/728-6/">728-6</a></td><td style="color: #cccccc">Hypochromia [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/10378-8/">10378-8</a></td><td style="color: #cccccc">Polychromasia [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/51582-5/">51582-5</a></td><td style="color: #cccccc">Anisochromasia [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/702-1/">702-1</a></td><td style="color: #cccccc">Anisocytosis [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/738-5/">738-5</a></td><td style="color: #cccccc">Macrocytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/741-9/">741-9</a></td><td style="color: #cccccc">Microcytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/779-9/">779-9</a></td><td style="color: #cccccc">Poikilocytosis [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/48069-9/">48069-9</a></td><td style="color: #cccccc">Spherocytes.micro [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/774-0/">774-0</a></td><td style="color: #cccccc">Ovalocytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7789-1/">7789-1</a></td><td style="color: #cccccc">Acanthocytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/10373-9/">10373-9</a></td><td style="color: #cccccc">Fragments [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/10380-4/">10380-4</a></td><td style="color: #cccccc">Stomatocytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/10381-2/">10381-2</a></td><td style="color: #cccccc">Target cells [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7791-7/">7791-7</a></td><td style="color: #cccccc">Dacrocytes [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7790-9/">7790-9</a></td><td style="color: #cccccc">Burr cells [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/10374-7/">10374-7</a></td><td style="color: #cccccc">Helmet cells [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/801-1/">801-1</a></td><td style="color: #cccccc">Sickle cells [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/703-9/">703-9</a></td><td style="color: #cccccc">Basophilic stippling [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7793-3/">7793-3</a></td><td style="color: #cccccc">Howell-Jolly bodies [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/11280-5/">11280-5</a></td><td style="color: #cccccc">Cabot rings [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7795-8/">7795-8</a></td><td style="color: #cccccc">Pappenheimer bodies [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/716-1/">716-1</a></td><td style="color: #cccccc">Heinz bodies [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/51640-1/">51640-1</a></td><td style="color: #cccccc">Platelet anisocytosis [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/32146-3/">32146-3</a></td><td style="color: #cccccc">Platelets Large [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/33216-3/">33216-3</a></td><td style="color: #cccccc">Platelets agranular [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/5908-9/">5908-9</a></td><td style="color: #cccccc">Giant platelets [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/7796-6/">7796-6</a></td><td style="color: #cccccc">Platelet clump [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/62858-6/">62858-6</a></td><td style="color: #cccccc">Micromegakaryocytes/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/18312-9/">18312-9</a></td><td style="color: #cccccc">Platelet satellitism [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/70028-6/">70028-6</a></td><td style="color: #cccccc">Megakaryocytic nuclei/100 leukocytes in Blood by Manual count</td></tr><tr><td><a href="https://loinc.org/91900-1/">91900-1</a></td><td style="color: #cccccc">Parasite [Presence] in Blood by Light microscopy</td></tr><tr><td><a href="https://loinc.org/59466-3/">59466-3</a></td><td style="color: #cccccc">Hematologist review of results</td></tr><tr><td><a href="https://loinc.org/14869-2/">14869-2</a></td><td style="color: #cccccc">Pathologist review of Blood tests</td></tr><tr><td><a href="https://loinc.org/31112-6/">31112-6</a></td><td style="color: #cccccc">Reticulocytes/100 erythrocytes in Blood by Manual</td></tr><tr><td><a href="https://loinc.org/4537-7/">4537-7</a></td><td style="color: #cccccc">Erythrocyte sedimentation rate by Westergren method</td></tr><tr><td><a href="https://loinc.org/30341-2/">30341-2</a></td><td style="color: #cccccc">Erythrocyte sedimentation rate</td></tr><tr><td><a href="https://loinc.org/75308-7/">75308-7</a></td><td style="color: #cccccc">Fetal blood [Volume] in Blood by Flow cytometry (FC)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/LabTestsVS"/>
+  <version value="0.1.0"/>
+  <name value="LabTestsVS"/>
+  <title value="Lab Tests Value Set"/>
+  <status value="draft"/>
+  <date value="2023-10-05T08:24:31+00:00"/>
+  <publisher value="PATH - TAP"/>
+  <contact>
+    <name value="PATH - TAP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://path.org"/>
+    </telecom>
+  </contact>
+  <description value="List of hematological, biochemical, and microbiological tests."/>
+  <copyright value="LOINC"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="58410-2"/>
+      </concept>
+      <concept>
+        <code value="57021-8"/>
+      </concept>
+      <concept>
+        <code value="6690-2"/>
+      </concept>
+      <concept>
+        <code value="789-8"/>
+      </concept>
+      <concept>
+        <code value="718-7"/>
+      </concept>
+      <concept>
+        <code value="4544-3"/>
+      </concept>
+      <concept>
+        <code value="787-2"/>
+      </concept>
+      <concept>
+        <code value="785-6"/>
+      </concept>
+      <concept>
+        <code value="786-4"/>
+      </concept>
+      <concept>
+        <code value="788-0"/>
+      </concept>
+      <concept>
+        <code value="21000-5"/>
+      </concept>
+      <concept>
+        <code value="777-3"/>
+      </concept>
+      <concept>
+        <code value="713-8"/>
+      </concept>
+      <concept>
+        <code value="706-2"/>
+      </concept>
+      <concept>
+        <code value="5905-5"/>
+      </concept>
+      <concept>
+        <code value="736-9"/>
+      </concept>
+      <concept>
+        <code value="4662-3"/>
+      </concept>
+      <concept>
+        <code value="32155-4"/>
+      </concept>
+      <concept>
+        <code value="770-8"/>
+      </concept>
+      <concept>
+        <code value="19023-1"/>
+      </concept>
+      <concept>
+        <code value="38518-7"/>
+      </concept>
+      <concept>
+        <code value="711-2"/>
+      </concept>
+      <concept>
+        <code value="704-7"/>
+      </concept>
+      <concept>
+        <code value="742-7"/>
+      </concept>
+      <concept>
+        <code value="731-0"/>
+      </concept>
+      <concept>
+        <code value="35081-9"/>
+      </concept>
+      <concept>
+        <code value="32154-7"/>
+      </concept>
+      <concept>
+        <code value="751-8"/>
+      </concept>
+      <concept>
+        <code value="20482-6"/>
+      </concept>
+      <concept>
+        <code value="51584-1"/>
+      </concept>
+      <concept>
+        <code value="32207-3"/>
+      </concept>
+      <concept>
+        <code value="51631-0"/>
+      </concept>
+      <concept>
+        <code value="32623-1"/>
+      </concept>
+      <concept>
+        <code value="48386-7"/>
+      </concept>
+      <concept>
+        <code value="51637-7"/>
+      </concept>
+      <concept>
+        <code value="71693-6"/>
+      </concept>
+      <concept>
+        <code value="30352-9"/>
+      </concept>
+      <concept>
+        <code value="771-6"/>
+      </concept>
+      <concept>
+        <code value="58413-6"/>
+      </concept>
+      <concept>
+        <code value="17849-1"/>
+      </concept>
+      <concept>
+        <code value="60474-4"/>
+      </concept>
+      <concept>
+        <code value="33516-6"/>
+      </concept>
+      <concept>
+        <code value="34419-2"/>
+      </concept>
+      <concept>
+        <code value="34420-0"/>
+      </concept>
+      <concept>
+        <code value="51642-7"/>
+      </concept>
+      <concept>
+        <code value="42810-2"/>
+      </concept>
+      <concept>
+        <code value="26450-7"/>
+      </concept>
+      <concept>
+        <code value="26449-9"/>
+      </concept>
+      <concept>
+        <code value="30180-4"/>
+      </concept>
+      <concept>
+        <code value="26444-0"/>
+      </concept>
+      <concept>
+        <code value="26485-3"/>
+      </concept>
+      <concept>
+        <code value="26484-6"/>
+      </concept>
+      <concept>
+        <code value="30466-7"/>
+      </concept>
+      <concept>
+        <code value="33840-0"/>
+      </concept>
+      <concept>
+        <code value="737-7"/>
+      </concept>
+      <concept>
+        <code value="732-8"/>
+      </concept>
+      <concept>
+        <code value="26478-8"/>
+      </concept>
+      <concept>
+        <code value="26474-7"/>
+      </concept>
+      <concept>
+        <code value="33835-0"/>
+      </concept>
+      <concept>
+        <code value="35039-7"/>
+      </concept>
+      <concept>
+        <code value="6746-2"/>
+      </concept>
+      <concept>
+        <code value="30464-2"/>
+      </concept>
+      <concept>
+        <code value="34922-5"/>
+      </concept>
+      <concept>
+        <code value="40716-3"/>
+      </concept>
+      <concept>
+        <code value="29261-5"/>
+      </concept>
+      <concept>
+        <code value="30412-1"/>
+      </concept>
+      <concept>
+        <code value="24104-2"/>
+      </concept>
+      <concept>
+        <code value="30422-0"/>
+      </concept>
+      <concept>
+        <code value="13047-6"/>
+      </concept>
+      <concept>
+        <code value="30458-4"/>
+      </concept>
+      <concept>
+        <code value="26511-6"/>
+      </concept>
+      <concept>
+        <code value="26499-4"/>
+      </concept>
+      <concept>
+        <code value="26505-8"/>
+      </concept>
+      <concept>
+        <code value="26508-2"/>
+      </concept>
+      <concept>
+        <code value="26507-4"/>
+      </concept>
+      <concept>
+        <code value="740-1"/>
+      </concept>
+      <concept>
+        <code value="30433-7"/>
+      </concept>
+      <concept>
+        <code value="26498-6"/>
+      </concept>
+      <concept>
+        <code value="30446-9"/>
+      </concept>
+      <concept>
+        <code value="26524-9"/>
+      </concept>
+      <concept>
+        <code value="26523-1"/>
+      </concept>
+      <concept>
+        <code value="747-6"/>
+      </concept>
+      <concept>
+        <code value="709-6"/>
+      </concept>
+      <concept>
+        <code value="30376-8"/>
+      </concept>
+      <concept>
+        <code value="55377-6"/>
+      </concept>
+      <concept>
+        <code value="33990-3"/>
+      </concept>
+      <concept>
+        <code value="772-4"/>
+      </concept>
+      <concept>
+        <code value="71369-3"/>
+      </concept>
+      <concept>
+        <code value="803-7"/>
+      </concept>
+      <concept>
+        <code value="7792-5"/>
+      </concept>
+      <concept>
+        <code value="765-8"/>
+      </concept>
+      <concept>
+        <code value="18319-4"/>
+      </concept>
+      <concept>
+        <code value="50672-5"/>
+      </concept>
+      <concept>
+        <code value="11281-3"/>
+      </concept>
+      <concept>
+        <code value="733-6"/>
+      </concept>
+      <concept>
+        <code value="14912-0"/>
+      </concept>
+      <concept>
+        <code value="7797-4"/>
+      </concept>
+      <concept>
+        <code value="50670-9"/>
+      </concept>
+      <concept>
+        <code value="728-6"/>
+      </concept>
+      <concept>
+        <code value="10378-8"/>
+      </concept>
+      <concept>
+        <code value="51582-5"/>
+      </concept>
+      <concept>
+        <code value="702-1"/>
+      </concept>
+      <concept>
+        <code value="738-5"/>
+      </concept>
+      <concept>
+        <code value="741-9"/>
+      </concept>
+      <concept>
+        <code value="779-9"/>
+      </concept>
+      <concept>
+        <code value="48069-9"/>
+      </concept>
+      <concept>
+        <code value="774-0"/>
+      </concept>
+      <concept>
+        <code value="7789-1"/>
+      </concept>
+      <concept>
+        <code value="10373-9"/>
+      </concept>
+      <concept>
+        <code value="10380-4"/>
+      </concept>
+      <concept>
+        <code value="10381-2"/>
+      </concept>
+      <concept>
+        <code value="7791-7"/>
+      </concept>
+      <concept>
+        <code value="7790-9"/>
+      </concept>
+      <concept>
+        <code value="10374-7"/>
+      </concept>
+      <concept>
+        <code value="801-1"/>
+      </concept>
+      <concept>
+        <code value="703-9"/>
+      </concept>
+      <concept>
+        <code value="7793-3"/>
+      </concept>
+      <concept>
+        <code value="11280-5"/>
+      </concept>
+      <concept>
+        <code value="7795-8"/>
+      </concept>
+      <concept>
+        <code value="716-1"/>
+      </concept>
+      <concept>
+        <code value="51640-1"/>
+      </concept>
+      <concept>
+        <code value="32146-3"/>
+      </concept>
+      <concept>
+        <code value="33216-3"/>
+      </concept>
+      <concept>
+        <code value="5908-9"/>
+      </concept>
+      <concept>
+        <code value="7796-6"/>
+      </concept>
+      <concept>
+        <code value="62858-6"/>
+      </concept>
+      <concept>
+        <code value="18312-9"/>
+      </concept>
+      <concept>
+        <code value="70028-6"/>
+      </concept>
+      <concept>
+        <code value="91900-1"/>
+      </concept>
+      <concept>
+        <code value="59466-3"/>
+      </concept>
+      <concept>
+        <code value="14869-2"/>
+      </concept>
+      <concept>
+        <code value="31112-6"/>
+      </concept>
+      <concept>
+        <code value="4537-7"/>
+      </concept>
+      <concept>
+        <code value="30341-2"/>
+      </concept>
+      <concept>
+        <code value="75308-7"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

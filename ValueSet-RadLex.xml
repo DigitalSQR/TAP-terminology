@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="RadLex"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/5.3.0/CodeSystem-RadLex.html"><code>http://radlex.org</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/RadLex"/>
+  <version value="0.1.0"/>
+  <name value="RadLex"/>
+  <title value="RadLex"/>
+  <status value="draft"/>
+  <date value="2023-10-05T08:24:31+00:00"/>
+  <publisher value="PATH - TAP"/>
+  <contact>
+    <name value="PATH - TAP"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://path.org"/>
+    </telecom>
+  </contact>
+  <description value="RadLex"/>
+  <compose>
+    <include>
+      <system value="http://radlex.org"/>
+    </include>
+  </compose>
+</ValueSet>

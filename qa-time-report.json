@@ -1,0 +1,394 @@
+{
+  "date" : "Thu, 05 Oct, 2023 08:24:31 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-path.fhir.tap.terminology.json",
+      "size" : 5671,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 67,
+          "length" : 62
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 67,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 89
+        },
+        {
+          "activity" : "validate",
+          "start" : 410,
+          "length" : 787
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 410,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 410,
+          "length" : 1
+        },
+        {
+          "activity" : "processProvenanceDetails",
+          "start" : 410,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 113
+        },
+        {
+          "activity" : "generate2",
+          "start" : 420,
+          "length" : 107
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 447,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 467,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-RadLex.json",
+      "size" : 284,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 63,
+          "length" : 10
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 65,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 65,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 102
+        },
+        {
+          "activity" : "validate",
+          "start" : 400,
+          "length" : 241
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 420,
+          "length" : 8622
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 446,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-AccidentsInjuriesCategories.json",
+      "size" : 4422,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 63,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 26
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 67,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 399,
+          "length" : 74
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 49
+        },
+        {
+          "activity" : "generate2",
+          "start" : 429,
+          "length" : 141
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 447,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-DepartmentTypeCodes.json",
+      "size" : 1733,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 63,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 11
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 67,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 400,
+          "length" : 16
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 22
+        },
+        {
+          "activity" : "generate2",
+          "start" : 429,
+          "length" : 70
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 447,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-DrugCategoriesProcurement.json",
+      "size" : 344,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 63,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 400,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 429,
+          "length" : 48
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-LabTestsVS.json",
+      "size" : 7759,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 63,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 24
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 67,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 474
+        },
+        {
+          "activity" : "validate",
+          "start" : 400,
+          "length" : 8094
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 82
+        },
+        {
+          "activity" : "generate2",
+          "start" : 429,
+          "length" : 663
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 447,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 467,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-PHVS-MicrobiologyLabTestResultName-CDC.json",
+      "size" : 1775792,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 63,
+          "length" : 1757
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 2101
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 67,
+          "length" : 81
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 68,
+          "length" : 331762
+        },
+        {
+          "activity" : "validate",
+          "start" : 408,
+          "length" : 1762
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 410,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 6929
+        },
+        {
+          "activity" : "generate2",
+          "start" : 430,
+          "length" : 9681
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 447,
+          "length" : 213
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 467,
+          "length" : 50
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-CostBasedServiceGroups.json",
+      "size" : 1776,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 65,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 399,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 400,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 418,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 439,
+          "length" : 27
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 447,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

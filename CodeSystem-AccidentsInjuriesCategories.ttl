@@ -1,0 +1,185 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/AccidentsInjuriesCategories> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AccidentsInjuriesCategories"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://example.org/CodeSystem/AccidentsInjuriesCategories</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">K01<a name=\"AccidentsInjuriesCategories-K01\"> </a></td><td>Outpatient Department</td></tr><tr><td style=\"white-space:nowrap\">K02<a name=\"AccidentsInjuriesCategories-K02\"> </a></td><td>Intensive Care Department</td></tr><tr><td style=\"white-space:nowrap\">K03<a name=\"AccidentsInjuriesCategories-K03\"> </a></td><td>General Medicine Department</td></tr><tr><td style=\"white-space:nowrap\">K04<a name=\"AccidentsInjuriesCategories-K04\"> </a></td><td>Cardiovascular Department</td></tr><tr><td style=\"white-space:nowrap\">K05<a name=\"AccidentsInjuriesCategories-K05\"> </a></td><td>Digestive Department</td></tr><tr><td style=\"white-space:nowrap\">K06<a name=\"AccidentsInjuriesCategories-K06\"> </a></td><td>Musculo-sckeletal Department</td></tr><tr><td style=\"white-space:nowrap\">K07<a name=\"AccidentsInjuriesCategories-K07\"> </a></td><td>Department of Internal Urology</td></tr><tr><td style=\"white-space:nowrap\">K08<a name=\"AccidentsInjuriesCategories-K08\"> </a></td><td>Endocrinology Department</td></tr><tr><td style=\"white-space:nowrap\">K09<a name=\"AccidentsInjuriesCategories-K09\"> </a></td><td>Department of Allergy</td></tr><tr><td style=\"white-space:nowrap\">K10<a name=\"AccidentsInjuriesCategories-K10\"> </a></td><td>Department of Clinical Hematology</td></tr><tr><td style=\"white-space:nowrap\">K11<a name=\"AccidentsInjuriesCategories-K11\"> </a></td><td>Infectious Disease Department</td></tr><tr><td style=\"white-space:nowrap\">K12<a name=\"AccidentsInjuriesCategories-K12\"> </a></td><td>Tuberculosis Department</td></tr><tr><td style=\"white-space:nowrap\">K13<a name=\"AccidentsInjuriesCategories-K13\"> </a></td><td>Department of Dermatology</td></tr><tr><td style=\"white-space:nowrap\">K14<a name=\"AccidentsInjuriesCategories-K14\"> </a></td><td>Neurology Department</td></tr><tr><td style=\"white-space:nowrap\">K15<a name=\"AccidentsInjuriesCategories-K15\"> </a></td><td>Department of Mental Health</td></tr><tr><td style=\"white-space:nowrap\">K16<a name=\"AccidentsInjuriesCategories-K16\"> </a></td><td>Department of Traditional Medicine</td></tr><tr><td style=\"white-space:nowrap\">K17<a name=\"AccidentsInjuriesCategories-K17\"> </a></td><td>Department of Geriatrics</td></tr><tr><td style=\"white-space:nowrap\">K18<a name=\"AccidentsInjuriesCategories-K18\"> </a></td><td>Pediatrics Department</td></tr><tr><td style=\"white-space:nowrap\">K19<a name=\"AccidentsInjuriesCategories-K19\"> </a></td><td>General Surgery Department</td></tr><tr><td style=\"white-space:nowrap\">K20<a name=\"AccidentsInjuriesCategories-K20\"> </a></td><td>Neurosurgery Department</td></tr><tr><td style=\"white-space:nowrap\">K21<a name=\"AccidentsInjuriesCategories-K21\"> </a></td><td>Thoracic Surgery Department</td></tr><tr><td style=\"white-space:nowrap\">K22<a name=\"AccidentsInjuriesCategories-K22\"> </a></td><td>Department of Digestive Surgery</td></tr><tr><td style=\"white-space:nowrap\">K23<a name=\"AccidentsInjuriesCategories-K23\"> </a></td><td>Department of Urologic Surgery</td></tr><tr><td style=\"white-space:nowrap\">K24<a name=\"AccidentsInjuriesCategories-K24\"> </a></td><td>Trauma and Orthopedic Department</td></tr><tr><td style=\"white-space:nowrap\">K25<a name=\"AccidentsInjuriesCategories-K25\"> </a></td><td>Department of Burns</td></tr><tr><td style=\"white-space:nowrap\">K26<a name=\"AccidentsInjuriesCategories-K26\"> </a></td><td>Department of Anesthesia and Surgical Intensive Care</td></tr><tr><td style=\"white-space:nowrap\">K27<a name=\"AccidentsInjuriesCategories-K27\"> </a></td><td>Department of Obstetrics</td></tr><tr><td style=\"white-space:nowrap\">K28<a name=\"AccidentsInjuriesCategories-K28\"> </a></td><td>ENT Department</td></tr><tr><td style=\"white-space:nowrap\">K29<a name=\"AccidentsInjuriesCategories-K29\"> </a></td><td>Department of Odontology</td></tr><tr><td style=\"white-space:nowrap\">K30<a name=\"AccidentsInjuriesCategories-K30\"> </a></td><td>Department of Ophthalmology</td></tr><tr><td style=\"white-space:nowrap\">K31<a name=\"AccidentsInjuriesCategories-K31\"> </a></td><td>Department of Physiotherapy and Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">K32<a name=\"AccidentsInjuriesCategories-K32\"> </a></td><td>Department of Nuclear Medicine</td></tr><tr><td style=\"white-space:nowrap\">K33<a name=\"AccidentsInjuriesCategories-K33\"> </a></td><td>Department of Oncology (radiation therapy)</td></tr><tr><td style=\"white-space:nowrap\">K34<a name=\"AccidentsInjuriesCategories-K34\"> </a></td><td>Blood Transfusion Department</td></tr><tr><td style=\"white-space:nowrap\">K35<a name=\"AccidentsInjuriesCategories-K35\"> </a></td><td>Department of Blood Purification</td></tr><tr><td style=\"white-space:nowrap\">K36<a name=\"AccidentsInjuriesCategories-K36\"> </a></td><td>Hematology Department</td></tr><tr><td style=\"white-space:nowrap\">K37<a name=\"AccidentsInjuriesCategories-K37\"> </a></td><td>Department of Biochemistry</td></tr><tr><td style=\"white-space:nowrap\">K38<a name=\"AccidentsInjuriesCategories-K38\"> </a></td><td>Department of Microbiology</td></tr><tr><td style=\"white-space:nowrap\">K39<a name=\"AccidentsInjuriesCategories-K39\"> </a></td><td>Department of Medical Imaging</td></tr><tr><td style=\"white-space:nowrap\">K40<a name=\"AccidentsInjuriesCategories-K40\"> </a></td><td>Department of Functional Tests</td></tr><tr><td style=\"white-space:nowrap\">K41<a name=\"AccidentsInjuriesCategories-K41\"> </a></td><td>Department of Endoscopy</td></tr><tr><td style=\"white-space:nowrap\">K42<a name=\"AccidentsInjuriesCategories-K42\"> </a></td><td>Department of Pathology</td></tr><tr><td style=\"white-space:nowrap\">K43<a name=\"AccidentsInjuriesCategories-K43\"> </a></td><td>Department of Infection Control</td></tr><tr><td style=\"white-space:nowrap\">K44<a name=\"AccidentsInjuriesCategories-K44\"> </a></td><td>Department of Pharmacy</td></tr><tr><td style=\"white-space:nowrap\">K45<a name=\"AccidentsInjuriesCategories-K45\"> </a></td><td>Department of Nutrition</td></tr><tr><td style=\"white-space:nowrap\">K46<a name=\"AccidentsInjuriesCategories-K46\"> </a></td><td>Molecular Biology Department</td></tr><tr><td style=\"white-space:nowrap\">K47<a name=\"AccidentsInjuriesCategories-K47\"> </a></td><td>Laboratory Department</td></tr><tr><td style=\"white-space:nowrap\">K48<a name=\"AccidentsInjuriesCategories-K48\"> </a></td><td>Department of Intensive Care</td></tr><tr><td style=\"white-space:nowrap\">K49<a name=\"AccidentsInjuriesCategories-K49\"> </a></td><td>Department of Poisoning Control</td></tr><tr><td style=\"white-space:nowrap\">K50<a name=\"AccidentsInjuriesCategories-K50\"> </a></td><td>Respiratory Department</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/AccidentsInjuriesCategories"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AccidentsInjuriesCategories"] ; # 
+  fhir:title [ fhir:v "Categories of Accidents and Injuries"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-10-05T08:24:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "PATH - TAP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "PATH - TAP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://path.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Categories of Accidents and Injuries."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "50"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "K01" ] ;
+     fhir:display [ fhir:v "Outpatient Department" ]
+  ] [
+     fhir:code [ fhir:v "K02" ] ;
+     fhir:display [ fhir:v "Intensive Care Department" ]
+  ] [
+     fhir:code [ fhir:v "K03" ] ;
+     fhir:display [ fhir:v "General Medicine Department" ]
+  ] [
+     fhir:code [ fhir:v "K04" ] ;
+     fhir:display [ fhir:v "Cardiovascular Department" ]
+  ] [
+     fhir:code [ fhir:v "K05" ] ;
+     fhir:display [ fhir:v "Digestive Department" ]
+  ] [
+     fhir:code [ fhir:v "K06" ] ;
+     fhir:display [ fhir:v "Musculo-sckeletal Department" ]
+  ] [
+     fhir:code [ fhir:v "K07" ] ;
+     fhir:display [ fhir:v "Department of Internal Urology" ]
+  ] [
+     fhir:code [ fhir:v "K08" ] ;
+     fhir:display [ fhir:v "Endocrinology Department" ]
+  ] [
+     fhir:code [ fhir:v "K09" ] ;
+     fhir:display [ fhir:v "Department of Allergy" ]
+  ] [
+     fhir:code [ fhir:v "K10" ] ;
+     fhir:display [ fhir:v "Department of Clinical Hematology" ]
+  ] [
+     fhir:code [ fhir:v "K11" ] ;
+     fhir:display [ fhir:v "Infectious Disease Department" ]
+  ] [
+     fhir:code [ fhir:v "K12" ] ;
+     fhir:display [ fhir:v "Tuberculosis Department" ]
+  ] [
+     fhir:code [ fhir:v "K13" ] ;
+     fhir:display [ fhir:v "Department of Dermatology" ]
+  ] [
+     fhir:code [ fhir:v "K14" ] ;
+     fhir:display [ fhir:v "Neurology Department" ]
+  ] [
+     fhir:code [ fhir:v "K15" ] ;
+     fhir:display [ fhir:v "Department of Mental Health" ]
+  ] [
+     fhir:code [ fhir:v "K16" ] ;
+     fhir:display [ fhir:v "Department of Traditional Medicine" ]
+  ] [
+     fhir:code [ fhir:v "K17" ] ;
+     fhir:display [ fhir:v "Department of Geriatrics" ]
+  ] [
+     fhir:code [ fhir:v "K18" ] ;
+     fhir:display [ fhir:v "Pediatrics Department" ]
+  ] [
+     fhir:code [ fhir:v "K19" ] ;
+     fhir:display [ fhir:v "General Surgery Department" ]
+  ] [
+     fhir:code [ fhir:v "K20" ] ;
+     fhir:display [ fhir:v "Neurosurgery Department" ]
+  ] [
+     fhir:code [ fhir:v "K21" ] ;
+     fhir:display [ fhir:v "Thoracic Surgery Department" ]
+  ] [
+     fhir:code [ fhir:v "K22" ] ;
+     fhir:display [ fhir:v "Department of Digestive Surgery" ]
+  ] [
+     fhir:code [ fhir:v "K23" ] ;
+     fhir:display [ fhir:v "Department of Urologic Surgery" ]
+  ] [
+     fhir:code [ fhir:v "K24" ] ;
+     fhir:display [ fhir:v "Trauma and Orthopedic Department" ]
+  ] [
+     fhir:code [ fhir:v "K25" ] ;
+     fhir:display [ fhir:v "Department of Burns" ]
+  ] [
+     fhir:code [ fhir:v "K26" ] ;
+     fhir:display [ fhir:v "Department of Anesthesia and Surgical Intensive Care" ]
+  ] [
+     fhir:code [ fhir:v "K27" ] ;
+     fhir:display [ fhir:v "Department of Obstetrics" ]
+  ] [
+     fhir:code [ fhir:v "K28" ] ;
+     fhir:display [ fhir:v "ENT Department" ]
+  ] [
+     fhir:code [ fhir:v "K29" ] ;
+     fhir:display [ fhir:v "Department of Odontology" ]
+  ] [
+     fhir:code [ fhir:v "K30" ] ;
+     fhir:display [ fhir:v "Department of Ophthalmology" ]
+  ] [
+     fhir:code [ fhir:v "K31" ] ;
+     fhir:display [ fhir:v "Department of Physiotherapy and Rehabilitation" ]
+  ] [
+     fhir:code [ fhir:v "K32" ] ;
+     fhir:display [ fhir:v "Department of Nuclear Medicine" ]
+  ] [
+     fhir:code [ fhir:v "K33" ] ;
+     fhir:display [ fhir:v "Department of Oncology (radiation therapy)" ]
+  ] [
+     fhir:code [ fhir:v "K34" ] ;
+     fhir:display [ fhir:v "Blood Transfusion Department" ]
+  ] [
+     fhir:code [ fhir:v "K35" ] ;
+     fhir:display [ fhir:v "Department of Blood Purification" ]
+  ] [
+     fhir:code [ fhir:v "K36" ] ;
+     fhir:display [ fhir:v "Hematology Department" ]
+  ] [
+     fhir:code [ fhir:v "K37" ] ;
+     fhir:display [ fhir:v "Department of Biochemistry" ]
+  ] [
+     fhir:code [ fhir:v "K38" ] ;
+     fhir:display [ fhir:v "Department of Microbiology" ]
+  ] [
+     fhir:code [ fhir:v "K39" ] ;
+     fhir:display [ fhir:v "Department of Medical Imaging" ]
+  ] [
+     fhir:code [ fhir:v "K40" ] ;
+     fhir:display [ fhir:v "Department of Functional Tests" ]
+  ] [
+     fhir:code [ fhir:v "K41" ] ;
+     fhir:display [ fhir:v "Department of Endoscopy" ]
+  ] [
+     fhir:code [ fhir:v "K42" ] ;
+     fhir:display [ fhir:v "Department of Pathology" ]
+  ] [
+     fhir:code [ fhir:v "K43" ] ;
+     fhir:display [ fhir:v "Department of Infection Control" ]
+  ] [
+     fhir:code [ fhir:v "K44" ] ;
+     fhir:display [ fhir:v "Department of Pharmacy" ]
+  ] [
+     fhir:code [ fhir:v "K45" ] ;
+     fhir:display [ fhir:v "Department of Nutrition" ]
+  ] [
+     fhir:code [ fhir:v "K46" ] ;
+     fhir:display [ fhir:v "Molecular Biology Department" ]
+  ] [
+     fhir:code [ fhir:v "K47" ] ;
+     fhir:display [ fhir:v "Laboratory Department" ]
+  ] [
+     fhir:code [ fhir:v "K48" ] ;
+     fhir:display [ fhir:v "Department of Intensive Care" ]
+  ] [
+     fhir:code [ fhir:v "K49" ] ;
+     fhir:display [ fhir:v "Department of Poisoning Control" ]
+  ] [
+     fhir:code [ fhir:v "K50" ] ;
+     fhir:display [ fhir:v "Respiratory Department" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

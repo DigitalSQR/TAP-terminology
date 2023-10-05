@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/DepartmentTypeCodes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "DepartmentTypeCodes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://example.org/CodeSystem/DepartmentTypeCodes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"DepartmentTypeCodes-1\"> </a></td><td>Testing</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"DepartmentTypeCodes-2\"> </a></td><td>Medical imaging</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"DepartmentTypeCodes-3\"> </a></td><td>Function testing</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"DepartmentTypeCodes-4\"> </a></td><td>Drugs in the list of drugs covered by health insurance</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"DepartmentTypeCodes-5\"> </a></td><td>Drugs which are not in the list of drugs covered by health insurance</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"DepartmentTypeCodes-6\"> </a></td><td>Drugs for which payment is made according to coinsurance percentage</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"DepartmentTypeCodes-7\"> </a></td><td>Blood and blood products</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"DepartmentTypeCodes-8\"> </a></td><td>Surgery and procedures</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"DepartmentTypeCodes-9\"> </a></td><td>Medical technical services for which payment is made according to coinsurance percentage</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"DepartmentTypeCodes-10\"> </a></td><td>Medical supplies in the list of medical supplies covered by health insurance</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"DepartmentTypeCodes-11\"> </a></td><td>Medical supplies for which payment is made according to coinsurance percentage</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"DepartmentTypeCodes-12\"> </a></td><td>Transport</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"DepartmentTypeCodes-13\"> </a></td><td>Medical examination</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"DepartmentTypeCodes-14\"> </a></td><td>Days of day hospital bed</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"DepartmentTypeCodes-15\"> </a></td><td>Days of inpatient hospital beds, including post-operative beds</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/CodeSystem/DepartmentTypeCodes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DepartmentTypeCodes"] ; # 
+  fhir:title [ fhir:v "DepartmentTypeCodes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-10-05T08:24:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "PATH - TAP"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "PATH - TAP" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://path.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Department Type Codes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "15"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Testing" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Medical imaging" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Function testing" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Drugs in the list of drugs covered by health insurance" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Drugs which are not in the list of drugs covered by health insurance" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Drugs for which payment is made according to coinsurance percentage" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Blood and blood products" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Surgery and procedures" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Medical technical services for which payment is made according to coinsurance percentage" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Medical supplies in the list of medical supplies covered by health insurance" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Medical supplies for which payment is made according to coinsurance percentage" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Transport" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Medical examination" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Days of day hospital bed" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Days of inpatient hospital beds, including post-operative beds" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
